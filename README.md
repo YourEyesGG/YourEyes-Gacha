@@ -8,5 +8,6 @@
 - mythic_notify
 - mythic_progbar
 
-### KHUSUS
-> SCRIPT INI HANYA KHUSUS UNTUK ENTITYRP
+### Rules
+> Script ini 100% Gratis Tidak Boleh di Perjual Belikan
+> Kalian Bebas Edit Script ini asal tidak Claim Hak Cipta & Memperjual Belikan
