@@ -36,40 +36,6 @@ AddEventHandler('youreyes-gacha:unboxing', function()
 	
 end)
 
-RegisterNetEvent('youreyes-gacha:ticket')
-AddEventHandler('youreyes-gacha:ticket', function()
-	local playerPed = GetPlayerPed(-1)
-	
-	Citizen.Wait(0)
-	
-	playAnim('missheistdockssetup1clipboard@base', 'base', -1, 49)	
-	TriggerEvent("mythic_progbar:client:progress", {
-        name = "robettiket",
-        duration = 2000,
-        label = "Merobek Cash Ticket",
-        useWhileDead = false,
-        canCancel = false,
-        controlDisables = {
-            disableMovement = false,
-            disableCarMovement = true,
-            disableMouse = false,
-            disableCombat = true,
-        },
-        animation = {
-            animDict = "",
-            anim = "",
-        },
-        prop = {
-            model = "",
-        }
-    }, function(status)
-        if not status then
-		ClearPedTasks(playerPed)
-        end
-    end)
-	
-end)
-
 RegisterNetEvent('youreyes-item:unboxing')
 AddEventHandler('youreyes-item:unboxing', function()
 	local playerPed = GetPlayerPed(-1)
