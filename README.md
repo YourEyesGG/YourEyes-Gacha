@@ -14,3 +14,6 @@
 
 ## Penggunaan
 > Kalian Harus Edit Script ini dengan cara menambahkan hasil Gacha dibagian Server.lua
+
+## Discord
+https://discord.gg/XPqYtrdxDV
