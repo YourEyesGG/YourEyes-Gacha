@@ -1,4 +1,4 @@
-# ERP-Gacha
+# YourEyes-Gacha
 
 - System Gacha dalam bentuk Item
 - Include Animasi, Progressbar, Notify (Mythic)
