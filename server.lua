@@ -13,16 +13,16 @@ ESX.RegisterUsableItem('vouchergacha', function(source)
 	  	Citizen.Wait(4500)
 		if chance == 1 then -- Jika Chancenya 1
        			TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'inform', text = 'Kamu Memenangkan : '}) -- Notifikasi Chance 1
-		   	-- Hasil Taro disini
+		   	-- Prize place Here
     		elseif chance == 2 then -- Jika Chancenya 2
 		   	TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'inform', text = 'Kamu Memenangkan : '}) -- Notifikasi Chance 2
-       			-- Hasil Taro disini
+       			-- Prize place Here
 	  	elseif chance == 3 then -- Jika Chancenya 3
 		  	TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'inform', text = 'Kamu Memenangkan : '}) -- Notifikasi Chance 3
-		  	-- Hasil Taro disini
+		  	-- Prize place Here
 	 	elseif chance == 5 then -- Jika Chancenya 5
 		  	TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'inform', text = 'Kamu Memenangkan : '}) -- Notifikasi Chance 5
-		  	-- Hasil Taro disini
+		  	-- Prize place Here
 		else -- Jika Chance Selain 1,2,3,5
 			TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'inform', text = 'ZONK!!'}) -- Notifikasi GAGAL
 		end
